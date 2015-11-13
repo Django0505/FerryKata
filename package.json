@@ -1,0 +1,26 @@
+{
+  "name": "ferrykata",
+  "version": "1.0.0",
+  "description": "kata called Ferry Kata",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Django0505/FerryKata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Django0505/FerryKata/issues"
+  },
+  "homepage": "https://github.com/Django0505/FerryKata#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-qunit": "^1.2.1"
+  }
+}
