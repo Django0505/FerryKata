@@ -32,8 +32,8 @@ describe('Ferry Kata', function() {
     	var car2 = new Car("blue", 2);
 
     	
-    	assert.equal("Accepted",Board(car,ferry));
-    	assert.equal("Accepted",Board(car1,ferry));
-    	assert.equal("Accepted",Board(car2,ferry));
+    	assert.equal("Accepted",Board(car));
+    	assert.equal("Accepted",Board(car1));
+    	assert.equal("Accepted",Board(car2));
     })
 });
