@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,9 @@
   },
   "homepage": "https://github.com/Django0505/FerryKata#readme",
   "dependencies": {
-    "gulp": "^3.9.0",
-    "gulp-qunit": "^1.2.1"
-  }
+    "gulp": "^4.0.0",
+    "gulp-qunit": "^1.2.1",
+    "snyk": "^1.104.2"
+  },
+  "snyk": true
 }
