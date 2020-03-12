@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Django0505/FerryKata#readme",
   "dependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.0",
     "gulp-qunit": "^1.2.1"
   }
 }
